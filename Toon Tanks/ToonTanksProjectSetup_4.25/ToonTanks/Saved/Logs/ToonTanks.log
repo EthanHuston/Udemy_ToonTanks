@@ -858,3 +858,71 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.03-17.58.30:002][888]Cmd: MAP CHECKDEP NOCLEARLOG
 [2021.02.03-17.58.30:002][888]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.131ms to complete.
 [2021.02.03-17.58.30:002][888]LogFileHelpers: Loading map 'Main' took 0.056
+[2021.02.03-18.03.55:747][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.02.03-18.03.55:763][222]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main9AC2BDB540B2AF85871783A8AB48DDB1.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2021.02.03-18.03.55:839][222]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_BuiltData30CCC2DC4025D76AD8D27D8DB516427F.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2021.02.03-18.03.55:850][222]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.03-18.03.55:851][222]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2021.02.03-18.03.55:851][222]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2021.02.03-18.04.04:814][276]LogSlate: Took 0.006932 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.02.03-18.04.21:099][196]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.02.03-18.04.21:652][196]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2021.02.03-18.04.22:511][196]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.02.03-18.04.30:093][219]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTank5F5B3A40427D951D6B85B589A29723F5.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.02.03-18.04.30:106][219]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.02.03-18.04.30:106][219]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.02.03-18.04.30:476][259]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTankE9B4387647EDB2EA92D2978EC7F55580.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.02.03-18.04.30:484][259]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.02.03-18.04.30:484][259]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.02.03-18.04.30:987][318]BlueprintLog: New page: Compile BP_PawnTank
+[2021.02.03-18.04.31:016][318]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.02.03-18.04.33:937][559]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:274).
+[2021.02.03-18.04.34:260][595]LogSlate: Window 'BP_PawnTank' being destroyed
+[2021.02.03-18.05.10:690][928]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_PawnTurret.BP_PawnTurret
+[2021.02.03-18.05.11:025][928]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.02.03-18.05.12:944][140]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTurret90B5D3404A36EFC9A432A887F7699BFA.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/BP_PawnTurret.uasset'
+[2021.02.03-18.05.12:951][140]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2021.02.03-18.05.12:951][140]LogContentValidation: Display: Validating Blueprint /Game/BP_PawnTurret.BP_PawnTurret
+[2021.02.03-18.05.13:555][210]BlueprintLog: New page: Compile BP_PawnTurret
+[2021.02.03-18.05.13:588][210]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.02.03-18.05.14:200][279]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTurret613469724447091208F412A4EDE114ED.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/BP_PawnTurret.uasset'
+[2021.02.03-18.05.14:207][279]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2021.02.03-18.05.14:207][279]LogContentValidation: Display: Validating Blueprint /Game/BP_PawnTurret.BP_PawnTurret
+[2021.02.03-18.05.28:066][910]LogMetaData: Removing '/Game/Blueprints/BP_PawnTurret.BP_PawnTurret:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.28:066][910]LogMetaData: Removing '/Game/Blueprints/BP_PawnTurret.SKEL_BP_PawnTurret_C' ref from Metadata '/Game/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.28:066][910]LogMetaData: Removing '/Game/Blueprints/BP_PawnTurret.BP_PawnTurret_C' ref from Metadata '/Game/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.28:066][910]LogMetaData: Removing '/Game/Blueprints/BP_PawnTurret.BP_PawnTurret:EventGraph.K2Node_Event_0' ref from Metadata '/Game/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.28:066][910]LogMetaData: Removing '/Game/Blueprints/BP_PawnTurret.BP_PawnTurret:EventGraph.K2Node_Event_1' ref from Metadata '/Game/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.28:066][910]LogMetaData: Removing '/Game/Blueprints/BP_PawnTurret.BP_PawnTurret:EventGraph.K2Node_Event_2' ref from Metadata '/Game/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.28:066][910]LogMetaData: Removing '/Game/Blueprints/BP_PawnTurret.SKEL_BP_PawnTurret_C:ReceiveBeginPlay' ref from Metadata '/Game/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.28:066][910]LogMetaData: Removing '/Game/Blueprints/BP_PawnTurret.SKEL_BP_PawnTurret_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.28:066][910]LogMetaData: Removing '/Game/Blueprints/BP_PawnTurret.SKEL_BP_PawnTurret_C:ReceiveTick' ref from Metadata '/Game/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.28:066][910]LogMetaData: Removing '/Game/Blueprints/BP_PawnTurret.SKEL_BP_PawnTurret_C:UserConstructionScript' ref from Metadata '/Game/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.28:094][910]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTurret142016BA493ADC178276EB99D0D51013.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/BP_PawnTurret.uasset'
+[2021.02.03-18.05.28:170][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.02.03-18.05.28:189][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.02.03-18.05.28:206][910]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.02.03-18.05.28:242][910]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2021.02.03-18.05.28:242][910]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PawnTurret.BP_PawnTurret
+[2021.02.03-18.05.31:469][283]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret_C' ref from Metadata '/Game/Blueprints/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.31:469][283]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTurret.SKEL_BP_PawnTurret_C' ref from Metadata '/Game/Blueprints/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.31:469][283]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTurret.SKEL_BP_PawnTurret_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.31:469][283]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTurret.SKEL_BP_PawnTurret_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.31:469][283]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTurret.SKEL_BP_PawnTurret_C:ReceiveTick' ref from Metadata '/Game/Blueprints/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.31:469][283]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTurret.SKEL_BP_PawnTurret_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.31:469][283]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.31:469][283]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.31:469][283]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.31:469][283]LogMetaData: Removing '/Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_PawnTurret.PackageMetaData'
+[2021.02.03-18.05.31:498][283]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTurretCFB3AFD140B7D6CEEAE0F09B3842D82D.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2021.02.03-18.05.31:551][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.02.03-18.05.31:578][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.02.03-18.05.31:591][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.02.03-18.05.31:623][283]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2021.02.03-18.05.31:623][283]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2021.02.03-18.05.40:074][667]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.02.03-18.05.40:087][667]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/MainEFE3B6A04A16CD0DEADF7099C1BBC3BD.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2021.02.03-18.05.40:149][667]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_BuiltDataF422F2F0417E3AA0A6B59082DD31B330.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2021.02.03-18.05.40:158][667]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.03-18.05.40:158][667]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2021.02.03-18.05.40:158][667]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
