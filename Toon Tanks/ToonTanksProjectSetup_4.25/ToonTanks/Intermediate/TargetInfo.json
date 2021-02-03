@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "ToonTanks",
-			"Path": "C:\\Udemy\\Toon Tanks\\ToonTanksProjectSetup_4.25\\ToonTanks\\Source\\ToonTanks.Target.cs",
+			"Path": "C:\\Users\\Ethan Huston\\source\\repos\\EthanHuston\\Udemy_ToonTanks\\Toon Tanks\\ToonTanksProjectSetup_4.25\\ToonTanks\\Source\\ToonTanks.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "ToonTanksEditor",
-			"Path": "C:\\Udemy\\Toon Tanks\\ToonTanksProjectSetup_4.25\\ToonTanks\\Source\\ToonTanksEditor.Target.cs",
+			"Path": "C:\\Users\\Ethan Huston\\source\\repos\\EthanHuston\\Udemy_ToonTanks\\Toon Tanks\\ToonTanksProjectSetup_4.25\\ToonTanks\\Source\\ToonTanksEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
