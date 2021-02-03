@@ -788,3 +788,13 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.03-18.53.26:024][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
 [2021.02.03-18.53.26:045][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2021.02.03-18.53.27:351][  4]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.03-18.54.01:773][775]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.02.03-18.54.11:201][823]LogSlate: Window 'Project Settings' being destroyed
+[2021.02.03-18.54.15:086][  9]LogSlate: Window 'Save Level As' being destroyed
+[2021.02.03-18.54.15:114][  9]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.02.03-18.54.15:127][  9]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/NewMapCB08DC8B4C2A9D387C7BB5A18EA830F4.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/NewMap.umap'
+[2021.02.03-18.54.15:163][  9]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/NewMap_BuiltDataE6B3B94F47B81C3378231D94D8763DDA.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/NewMap_BuiltData.uasset'
+[2021.02.03-18.54.15:171][  9]LogFileHelpers: Saving map 'NewMap' took 0.080
+[2021.02.03-18.54.15:173][  9]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.03-18.54.15:174][  9]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/NewMap_BuiltData.NewMap_BuiltData
+[2021.02.03-18.54.15:174][  9]LogContentValidation: Display: Validating World /Game/Maps/NewMap.NewMap
