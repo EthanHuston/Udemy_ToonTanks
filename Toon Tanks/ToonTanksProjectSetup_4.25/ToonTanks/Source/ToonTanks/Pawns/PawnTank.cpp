@@ -5,12 +5,12 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 
-APawnTank::ApawnTank()
+APawnTank::APawnTank()
 {
-    SpringArm = CreateDefaultObject<USpringArmComponent>(TEXT("Spring Arm"));
+    SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Spring Arm"));
     SpringArm->SetupAttachment(RootComponent);
 
-    Camera = CreateDefaultObject<UCameraComponent>(TEXT("Camera"));
+    Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
     Camera->SetupAttachment(SpringArm);
 }
 
