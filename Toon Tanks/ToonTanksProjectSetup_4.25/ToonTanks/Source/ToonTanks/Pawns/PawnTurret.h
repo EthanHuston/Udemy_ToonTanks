@@ -16,6 +16,13 @@ class TOONTANKS_API APawnTurret : public APawnBase
 
 private:
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat", meta = (AllowPrivateAccess = "true"));
+	float FireRate = 2.0f;
+
+	void CheckFireCondition();
+
+	FTimerHandle FireRateTimerHandle;
+
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

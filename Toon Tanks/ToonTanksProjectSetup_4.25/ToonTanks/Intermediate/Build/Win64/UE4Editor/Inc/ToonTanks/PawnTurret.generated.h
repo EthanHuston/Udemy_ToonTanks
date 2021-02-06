@@ -60,7 +60,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnTurret); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APawnTurret)
 
 
-#define ToonTanks_Source_ToonTanks_Pawns_PawnTurret_h_15_PRIVATE_PROPERTY_OFFSET
+#define ToonTanks_Source_ToonTanks_Pawns_PawnTurret_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__FireRate() { return STRUCT_OFFSET(APawnTurret, FireRate); }
+
+
 #define ToonTanks_Source_ToonTanks_Pawns_PawnTurret_h_12_PROLOG
 #define ToonTanks_Source_ToonTanks_Pawns_PawnTurret_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
