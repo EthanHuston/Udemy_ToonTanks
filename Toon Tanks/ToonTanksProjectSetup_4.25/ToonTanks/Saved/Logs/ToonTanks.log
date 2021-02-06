@@ -1103,3 +1103,319 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.06-15.22.27:625][703]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2021.02.06-15.22.27:640][703]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
 [2021.02.06-15.22.27:707][704]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.02.06-15.23.41:879][992]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.02.06-15.23.41:879][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-15.28.37:284][154]Candidate modules for hot reload:
+[2021.02.06-15.28.37:284][154]  ToonTanks
+[2021.02.06-15.28.37:284][154]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,2671 ToonTanksEditor Win64 Development -Project="C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" "C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2021.02.06-15.28.37:287][154]Warning: Starting HotReload took  0.0s.
+[2021.02.06-15.28.43:430][275]CompilerResultsLog: New page: Compilation - Feb 6, 2021, 5:28:43 AM
+[2021.02.06-15.28.43:430][275]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2021.02.06-15.28.43:430][275]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\ToonTanks.uproject" "C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Ethan Huston\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.06-15.28.43:430][275]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 3.7167862 seconds
+[2021.02.06-15.28.43:430][275]CompilerResultsLog: Building ToonTanksEditor...
+[2021.02.06-15.28.43:430][275]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.06-15.28.43:430][275]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.02.06-15.28.43:430][275]CompilerResultsLog:   [1/5] PawnTank.gen.cpp
+[2021.02.06-15.28.43:430][275]CompilerResultsLog:   [2/5] PawnTank.cpp
+[2021.02.06-15.28.43:430][275]CompilerResultsLog:   [3/5] UE4Editor-ToonTanks-2671.lib
+[2021.02.06-15.28.43:430][275]CompilerResultsLog:      Creating library C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2671.lib and object C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2671.exp
+[2021.02.06-15.28.43:430][275]CompilerResultsLog:   [4/5] UE4Editor-ToonTanks-2671.dll
+[2021.02.06-15.28.43:430][275]CompilerResultsLog:      Creating library C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2671.suppressed.lib and object C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2671.suppressed.exp
+[2021.02.06-15.28.43:430][275]CompilerResultsLog:   [5/5] ToonTanksEditor.target
+[2021.02.06-15.28.43:430][275]CompilerResultsLog: Total time in Parallel executor: 1.61 seconds
+[2021.02.06-15.28.43:430][275]CompilerResultsLog: Total execution time: 6.05 seconds
+[2021.02.06-15.28.43:431][275]LogMainFrame: MainFrame: Module compiling took 6.151 seconds
+[2021.02.06-15.28.43:453][275]LogClass: Could not find existing class PawnTank in package /Script/ToonTanks for HotReload, assuming new class
+[2021.02.06-15.28.43:466][275]LogHotReload: Re-instancing PawnTank after hot-reload.
+[2021.02.06-15.28.43:658][275]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2021.02.06-15.28.43:663][275]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.06-15.28.43:735][275]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0102 seconds. Added 3603 classes and 862 folders.
+[2021.02.06-15.28.43:735][275]Display: HotReload took  6.5s.
+[2021.02.06-15.29.19:499][852]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.02.06-15.29.43:071][583]LogEditorTransaction: Undo Modify Component(s)
+[2021.02.06-15.30.49:393][678]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTank29806EC34D1F08930676409624C59556.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.02.06-15.30.49:424][678]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.02.06-15.30.49:424][678]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.02.06-15.30.49:850][728]BlueprintLog: New page: Compile BP_PawnTank
+[2021.02.06-15.30.50:092][728]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2021.02.06-15.31.17:684][ 30]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTank031C71404656A14BA9E0D1BB4CB7786D.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.02.06-15.31.17:710][ 30]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.02.06-15.31.17:710][ 30]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.02.06-15.31.18:125][ 80]BlueprintLog: New page: Compile BP_PawnTank
+[2021.02.06-15.31.18:323][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2021.02.06-15.31.24:492][786]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.02.06-15.31.24:506][786]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main805316E14A2828D41A27979350CABAD9.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2021.02.06-15.31.24:542][786]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_BuiltDataAF0C396542428E0AFF28649B0B1010F4.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2021.02.06-15.31.24:552][786]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.06-15.31.24:552][786]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2021.02.06-15.31.24:552][786]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2021.02.06-15.31.25:960][950]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.06-15.31.25:970][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.06-15.31.25:970][950]PIE: New page: PIE session: Main (Feb 6, 2021, 5:31:25 AM)
+[2021.02.06-15.31.25:970][950]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.02.06-15.31.25:973][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002408s)
+[2021.02.06-15.31.25:973][950]LogAIModule: Creating AISystem for world Main
+[2021.02.06-15.31.25:974][950]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2021.02.06-15.31.25:974][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003323s)
+[2021.02.06-15.31.25:988][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.02.06-15.31.25:989][950]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.02.06-15.31.25:989][950]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.06-15.31.25:989][950]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.06-15.31.25:989][950]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.06-15.31.25:989][950]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.06-15.31.25:989][950]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.06-15.31.25:989][950]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.06-15.31.25:989][950]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.06-15.31.25:989][950]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.06-15.31.25:990][950]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.06-15.31.25:990][950]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.06-15.31.25:995][950]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.06-15.31.25:995][950]LogAudioMixer: Display: 1: FrontRight
+[2021.02.06-15.31.26:004][950]LogAudioMixer: Display: Using Audio Device 3 - Sceptre L24 (AMD High Definition Audio Device)
+[2021.02.06-15.31.26:005][950]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.06-15.31.26:005][950]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.06-15.31.26:005][950]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.06-15.31.26:005][950]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.06-15.31.26:005][950]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.06-15.31.26:005][950]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.06-15.31.26:017][950]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.06-15.31.26:017][950]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.06-15.31.26:017][950]LogInit: FAudioDevice initialized.
+[2021.02.06-15.31.26:017][950]LogAudio: Display: Audio Device (ID: 5) registered with world 'Main'.
+[2021.02.06-15.31.26:024][950]LogLoad: Game class is 'GameModeBase'
+[2021.02.06-15.31.26:025][950]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.02.06-10.31.26
+[2021.02.06-15.31.26:025][950]LogWorld: Bringing up level for play took: 0.000632
+[2021.02.06-15.31.26:025][950]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.02.06-15.31.26:027][950]PIE: Server logged in
+[2021.02.06-15.31.26:027][950]PIE: Play in editor total start time 0.059 seconds.
+[2021.02.06-15.31.50:569][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-15.31.50:569][888]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.02.06-15.31.50:569][888]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.02.06-15.31.50:569][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-15.31.50:580][888]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.06-15.31.50:642][888]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-15.31.50:654][888]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.06-15.31.50:654][888]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-15.31.50:655][888]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-15.31.50:667][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-15.31.50:670][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.02.06-15.31.50:721][889]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.02.06-15.32.22:129][249]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTank706DE90640394338AAFB35B37B6D403F.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.02.06-15.32.22:158][249]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.02.06-15.32.22:158][249]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.02.06-15.32.22:587][299]BlueprintLog: New page: Compile BP_PawnTank
+[2021.02.06-15.32.22:748][299]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2021.02.06-15.32.25:778][622]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.02.06-15.32.25:792][622]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main6BAEB73643436D390D54609B2F049C4B.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2021.02.06-15.32.25:823][622]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_BuiltData4BD0CFE44423E228C34596A77D2D775C.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2021.02.06-15.32.25:836][622]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.06-15.32.25:836][622]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2021.02.06-15.32.25:836][622]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2021.02.06-15.32.29:574][971]Cmd: SELECT NONE
+[2021.02.06-15.32.35:773][589]LogMaterial: Display: Missing cached shader map for material T_BasicGrid_Mat, compiling. 
+[2021.02.06-15.32.35:807][589]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2021.02.06-15.32.35:807][589]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2021.02.06-15.32.35:807][589]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2021.02.06-15.32.35:807][589]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.02.06-15.32.35:807][589]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.02.06-15.32.35:807][589]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2021.02.06-15.32.35:813][589]LogMaterial: Display: Material /Game/Assets/Textures/T_BasicGrid_Mat.T_BasicGrid_Mat needed to have new flag set bUsedWithStaticLighting !
+[2021.02.06-15.32.35:814][589]LogMaterial: Display: Missing cached shader map for material T_BasicGrid_Mat, compiling. 
+[2021.02.06-15.32.35:872][590]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 21
+[2021.02.06-15.32.35:872][590]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 18
+[2021.02.06-15.32.37:136][706]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 15
+[2021.02.06-15.32.37:285][721]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2021.02.06-15.32.37:462][739]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2021.02.06-15.32.37:605][755]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2021.02.06-15.32.37:624][757]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 7
+[2021.02.06-15.32.37:648][759]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2021.02.06-15.32.37:956][789]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2021.02.06-15.32.38:018][794]Cmd: TRANSACTION UNDO
+[2021.02.06-15.32.38:018][794]LogEditorTransaction: Undo Create Actors
+[2021.02.06-15.32.38:125][797]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.02.06-15.32.38:228][801]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.02.06-15.32.38:238][801]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2021.02.06-15.32.38:262][802]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2021.02.06-15.32.48:138][791]Cmd: SELECT NONE
+[2021.02.06-15.32.48:837][875]Cmd: SELECT NONE
+[2021.02.06-15.33.27:715][ 53]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTank0F32A0064ECD4D688144B1919627A971.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.02.06-15.33.27:738][ 53]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.02.06-15.33.27:738][ 53]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.02.06-15.33.28:129][ 98]BlueprintLog: New page: Compile BP_PawnTank
+[2021.02.06-15.33.28:160][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2021.02.06-15.33.29:537][251]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.02.06-15.33.29:550][251]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main60814D2046B6490AAA561A9F6CF67D63.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2021.02.06-15.33.29:579][251]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_BuiltDataC254316F45AF69F1254A02BE386E93B3.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2021.02.06-15.33.29:595][251]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.06-15.33.29:595][251]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2021.02.06-15.33.29:595][251]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2021.02.06-15.33.30:487][352]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.06-15.33.30:498][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.06-15.33.30:498][352]PIE: New page: PIE session: Main (Feb 6, 2021, 5:33:30 AM)
+[2021.02.06-15.33.30:498][352]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.02.06-15.33.30:500][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002187s)
+[2021.02.06-15.33.30:501][352]LogAIModule: Creating AISystem for world Main
+[2021.02.06-15.33.30:501][352]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2021.02.06-15.33.30:501][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003046s)
+[2021.02.06-15.33.30:516][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.02.06-15.33.30:516][352]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.02.06-15.33.30:516][352]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.06-15.33.30:516][352]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.06-15.33.30:516][352]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.06-15.33.30:516][352]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.06-15.33.30:516][352]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.06-15.33.30:516][352]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.06-15.33.30:516][352]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.06-15.33.30:516][352]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.06-15.33.30:517][352]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.06-15.33.30:517][352]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.06-15.33.30:522][352]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.06-15.33.30:522][352]LogAudioMixer: Display: 1: FrontRight
+[2021.02.06-15.33.30:531][352]LogAudioMixer: Display: Using Audio Device 3 - Sceptre L24 (AMD High Definition Audio Device)
+[2021.02.06-15.33.30:531][352]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.06-15.33.30:531][352]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.06-15.33.30:531][352]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.06-15.33.30:532][352]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.06-15.33.30:532][352]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.06-15.33.30:532][352]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.06-15.33.30:543][352]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.06-15.33.30:543][352]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.06-15.33.30:543][352]LogInit: FAudioDevice initialized.
+[2021.02.06-15.33.30:543][352]LogAudio: Display: Audio Device (ID: 6) registered with world 'Main'.
+[2021.02.06-15.33.30:553][352]LogLoad: Game class is 'GameModeBase'
+[2021.02.06-15.33.30:554][352]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.02.06-10.33.30
+[2021.02.06-15.33.30:555][352]LogWorld: Bringing up level for play took: 0.000751
+[2021.02.06-15.33.30:555][352]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.02.06-15.33.30:556][352]PIE: Server logged in
+[2021.02.06-15.33.30:557][352]PIE: Play in editor total start time 0.061 seconds.
+[2021.02.06-15.33.37:952][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-15.33.37:952][234]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.02.06-15.33.37:952][234]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.02.06-15.33.37:953][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-15.33.37:963][234]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.06-15.33.37:966][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-15.33.37:978][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-15.33.37:978][234]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-15.33.37:979][234]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-15.33.37:994][234]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2021.02.06-15.33.38:034][236]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.02.06-15.33.46:650][238]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTankD912A7BD4375C7047315E18F1E96E061.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.02.06-15.33.46:678][238]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.02.06-15.33.46:678][238]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.02.06-15.33.47:021][279]BlueprintLog: New page: Compile BP_PawnTank
+[2021.02.06-15.33.47:054][279]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2021.02.06-15.33.48:266][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.02.06-15.33.48:279][419]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/MainD29925614327509E1FCD9696E0054EB9.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2021.02.06-15.33.48:308][419]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_BuiltDataD97D6F044E6967D94F8DEDAFF9163D3A.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2021.02.06-15.33.48:324][419]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.06-15.33.48:324][419]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2021.02.06-15.33.48:324][419]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2021.02.06-15.33.49:200][521]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.06-15.33.49:211][521]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.06-15.33.49:211][521]PIE: New page: PIE session: Main (Feb 6, 2021, 5:33:49 AM)
+[2021.02.06-15.33.49:241][521]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.02.06-15.33.49:244][521]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003120s)
+[2021.02.06-15.33.49:245][521]LogAIModule: Creating AISystem for world Main
+[2021.02.06-15.33.49:246][521]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2021.02.06-15.33.49:246][521]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004316s)
+[2021.02.06-15.33.49:261][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.02.06-15.33.49:261][521]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.02.06-15.33.49:261][521]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.06-15.33.49:261][521]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.06-15.33.49:261][521]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.06-15.33.49:261][521]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.06-15.33.49:262][521]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.06-15.33.49:262][521]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.06-15.33.49:262][521]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.06-15.33.49:262][521]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.06-15.33.49:262][521]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.06-15.33.49:262][521]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.06-15.33.49:267][521]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.06-15.33.49:267][521]LogAudioMixer: Display: 1: FrontRight
+[2021.02.06-15.33.49:275][521]LogAudioMixer: Display: Using Audio Device 3 - Sceptre L24 (AMD High Definition Audio Device)
+[2021.02.06-15.33.49:275][521]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.06-15.33.49:275][521]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.06-15.33.49:275][521]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.06-15.33.49:276][521]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.06-15.33.49:276][521]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.06-15.33.49:276][521]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.02.06-15.33.49:287][521]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.06-15.33.49:287][521]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.06-15.33.49:287][521]LogInit: FAudioDevice initialized.
+[2021.02.06-15.33.49:287][521]LogAudio: Display: Audio Device (ID: 7) registered with world 'Main'.
+[2021.02.06-15.33.49:293][521]LogLoad: Game class is 'GameModeBase'
+[2021.02.06-15.33.49:294][521]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.02.06-10.33.49
+[2021.02.06-15.33.49:294][521]LogWorld: Bringing up level for play took: 0.000612
+[2021.02.06-15.33.49:294][521]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.02.06-15.33.49:295][521]PIE: Server logged in
+[2021.02.06-15.33.49:296][521]PIE: Play in editor total start time 0.086 seconds.
+[2021.02.06-15.34.10:003][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-15.34.10:003][998]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.02.06-15.34.10:004][998]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.02.06-15.34.10:004][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-15.34.10:012][998]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.06-15.34.10:015][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.06-15.34.10:027][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.06-15.34.10:027][998]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-15.34.10:028][998]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.06-15.34.10:042][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2021.02.06-15.34.10:081][  0]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.02.06-15.34.41:860][544]LogMaterial: Display: Missing cached shader map for material T_BasicGrid_M_Mat, compiling. 
+[2021.02.06-15.34.41:873][544]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2021.02.06-15.34.41:873][544]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2021.02.06-15.34.41:873][544]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2021.02.06-15.34.41:873][544]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.02.06-15.34.41:873][544]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.02.06-15.34.41:873][544]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2021.02.06-15.34.41:874][544]LogMaterial: Display: Material /Game/Assets/Textures/T_BasicGrid_M_Mat.T_BasicGrid_M_Mat needed to have new flag set bUsedWithStaticLighting !
+[2021.02.06-15.34.41:877][544]LogMaterial: Display: Missing cached shader map for material T_BasicGrid_M_Mat, compiling. 
+[2021.02.06-15.34.41:947][547]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 21
+[2021.02.06-15.34.41:947][547]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 18
+[2021.02.06-15.34.42:801][603]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 15
+[2021.02.06-15.34.42:965][616]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2021.02.06-15.34.43:006][619]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2021.02.06-15.34.43:122][629]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.02.06-15.34.43:193][635]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2021.02.06-15.34.43:251][640]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.02.06-15.34.43:518][661]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2021.02.06-15.34.43:665][674]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2021.02.06-15.34.43:698][677]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2021.02.06-15.34.43:794][685]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2021.02.06-15.34.43:953][697]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.02.06-15.34.48:602][199]Cmd: TRANSACTION UNDO
+[2021.02.06-15.34.48:602][199]LogEditorTransaction: Undo Create Actors
+[2021.02.06-15.34.54:398][834]LogMaterial: Display: Missing cached shader map for material T_ColourGrid_Mat, compiling. 
+[2021.02.06-15.34.54:412][834]LogMaterial: Display: Material /Game/Assets/Textures/T_ColourGrid_Mat.T_ColourGrid_Mat needed to have new flag set bUsedWithStaticLighting !
+[2021.02.06-15.34.54:415][834]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 12
+[2021.02.06-15.34.54:415][834]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2021.02.06-15.34.54:415][834]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 8
+[2021.02.06-15.34.54:415][834]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.02.06-15.34.54:415][834]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.02.06-15.34.54:415][834]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 2
+[2021.02.06-15.34.54:415][834]LogMaterial: Display: Missing cached shader map for material T_ColourGrid_Mat, compiling. 
+[2021.02.06-15.34.54:459][836]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 21
+[2021.02.06-15.34.54:459][836]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 18
+[2021.02.06-15.34.55:181][885]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 15
+[2021.02.06-15.34.55:289][894]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2021.02.06-15.34.55:396][906]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2021.02.06-15.34.55:482][916]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 9
+[2021.02.06-15.34.55:569][925]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 7
+[2021.02.06-15.34.55:598][927]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2021.02.06-15.34.55:935][958]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2021.02.06-15.34.56:001][964]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2021.02.06-15.34.56:140][977]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2021.02.06-15.34.56:160][979]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2021.02.06-15.34.56:252][989]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2021.02.06-15.34.58:858][294]Cmd: TRANSACTION UNDO
+[2021.02.06-15.34.58:858][294]LogEditorTransaction: Undo Create Actors
+[2021.02.06-15.35.18:244][405]Cmd: TRANSACTION UNDO
+[2021.02.06-15.35.18:244][405]LogEditorTransaction: Undo Create Actors
+[2021.02.06-15.35.19:092][477]Cmd: TRANSACTION UNDO
+[2021.02.06-15.35.19:092][477]LogEditorTransaction: Undo Create Actors
+[2021.02.06-15.35.57:764][107]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.02.06-15.35.57:783][107]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/MainB933566F40FF0EBE89917492221BC66A.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2021.02.06-15.35.57:817][107]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_BuiltData73FAC91A43176029D699E2B5CF903B61.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2021.02.06-15.35.57:827][107]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.06-15.35.57:827][107]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2021.02.06-15.35.57:827][107]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
