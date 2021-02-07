@@ -25,6 +25,7 @@ APawnBase::APawnBase()
 
 }
 
+
 void APawnBase::RotateTurret(FVector LookAtTarget) 
 {
 	FVector LookAtTargetCleaned = FVector(LookAtTarget.X, LookAtTarget.Y, TurretMesh->GetComponentLocation().Z);
@@ -58,4 +59,3 @@ void APawnBase::HandleDestruction()
 	//Pawn Tank: Inform gamemode player died, then hide all components and stop movement input
 
 }
-
