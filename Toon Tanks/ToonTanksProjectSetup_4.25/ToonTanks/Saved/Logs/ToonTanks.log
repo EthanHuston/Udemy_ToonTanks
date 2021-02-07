@@ -785,3 +785,159 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.07-18.11.50:945][  0]LogAssetRegistry: Asset discovery search completed in 6.3587 seconds
 [2021.02.07-18.11.50:947][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
 [2021.02.07-18.11.50:970][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.07-18.12.36:221][573]LogSlate: Took 0.005373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.07-18.13.11:820][239]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.07-18.13.11:900][239]LogSlate: Took 0.006257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.02.07-18.13.40:942][ 56]Candidate modules for hot reload:
+[2021.02.07-18.13.40:942][ 56]  ToonTanks
+[2021.02.07-18.13.40:943][ 56]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,6047 ToonTanksEditor Win64 Development -Project="C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" "C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2021.02.07-18.14.03:596][ 56]CompilerResultsLog: New page: Compilation - Feb 7, 2021, 8:14:03 AM
+[2021.02.07-18.14.03:597][ 56]CompilerResultsLog: Invalidating makefile for ToonTanksEditor (directory added)
+[2021.02.07-18.14.03:597][ 56]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2021.02.07-18.14.03:597][ 56]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\ToonTanks.uproject" "C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Ethan Huston\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.07-18.14.03:597][ 56]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 13.4949915 seconds
+[2021.02.07-18.14.03:597][ 56]CompilerResultsLog: Building ToonTanksEditor...
+[2021.02.07-18.14.03:597][ 56]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.07-18.14.03:597][ 56]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.02.07-18.14.03:597][ 56]CompilerResultsLog:   [1/6] ProjectileBase.cpp
+[2021.02.07-18.14.03:597][ 56]CompilerResultsLog:   C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Source\ToonTanks\Actors\ProjectileBase.cpp(4): fatal error C1083: Cannot open include file: 'Actors/ProjectileBase.h': No such file or directory
+[2021.02.07-18.14.03:597][ 56]CompilerResultsLog:   [2/6] ToonTanks.init.gen.cpp
+[2021.02.07-18.14.03:597][ 56]CompilerResultsLog:   [3/6] ProjectileBase.gen.cpp
+[2021.02.07-18.14.03:597][ 56]LogMainFrame: MainFrame: Module compiling took 22.675 seconds
+[2021.02.07-18.14.03:610][ 56]Warning: HotReload failed, recompile failed
+[2021.02.07-18.14.03:610][ 56]Warning: RebindPackages failed because compilation failed.
+[2021.02.07-18.14.11:312][ 56]LogSlate: Window 'Message' being destroyed
+[2021.02.07-18.14.11:316][ 56]Message dialog closed, result: No, title: Message, text: Successfully added class 'ProjectileBase', however you must recompile the 'ToonTanks' module before it will appear in the Content Browser. Failed to automatically hot reload the 'ToonTanks' module.
+
+Would you like to open the Output Log to see more details?
+[2021.02.07-18.14.11:316][ 56]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.02.07-18.14.19:228][979]LogSlate: Window 'Message Log' being destroyed
+[2021.02.07-18.14.19:240][979]LogSlate: Window 'Message Log' being destroyed
+[2021.02.07-18.14.32:255][197]Candidate modules for hot reload:
+[2021.02.07-18.14.32:255][197]  ToonTanks
+[2021.02.07-18.14.32:255][197]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,3520 ToonTanksEditor Win64 Development -Project="C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" "C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2021.02.07-18.14.32:257][197]Warning: Starting HotReload took  0.0s.
+[2021.02.07-18.14.35:530][540]CompilerResultsLog: New page: Compilation - Feb 7, 2021, 8:14:35 AM
+[2021.02.07-18.14.35:531][540]CompilerResultsLog: Invalidating makefile for ToonTanksEditor (ProjectileBase.cpp modified)
+[2021.02.07-18.14.35:531][540]CompilerResultsLog: Building ToonTanksEditor...
+[2021.02.07-18.14.35:531][540]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.07-18.14.35:531][540]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.02.07-18.14.35:531][540]CompilerResultsLog:   [1/4] ProjectileBase.cpp
+[2021.02.07-18.14.35:531][540]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-3520.lib
+[2021.02.07-18.14.35:531][540]CompilerResultsLog:      Creating library C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3520.lib and object C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3520.exp
+[2021.02.07-18.14.35:531][540]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-3520.dll
+[2021.02.07-18.14.35:531][540]CompilerResultsLog:      Creating library C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3520.suppressed.lib and object C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3520.suppressed.exp
+[2021.02.07-18.14.35:531][540]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2021.02.07-18.14.35:531][540]CompilerResultsLog: Total time in Parallel executor: 1.44 seconds
+[2021.02.07-18.14.35:531][540]CompilerResultsLog: Total execution time: 3.18 seconds
+[2021.02.07-18.14.35:531][540]LogMainFrame: MainFrame: Module compiling took 3.282 seconds
+[2021.02.07-18.14.35:553][540]LogClass: Could not find existing class ProjectileBase in package /Script/ToonTanks for HotReload, assuming new class
+[2021.02.07-18.14.35:559][540]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0003 seconds. Added 4 classes and 4 folders.
+[2021.02.07-18.14.35:560][540]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.07-18.14.35:601][540]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0088 seconds. Added 3605 classes and 863 folders.
+[2021.02.07-18.14.35:602][540]Display: HotReload took  3.4s.
+[2021.02.07-18.22.55:107][973]Candidate modules for hot reload:
+[2021.02.07-18.22.55:107][973]  ToonTanks
+[2021.02.07-18.22.55:107][973]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,6682 ToonTanksEditor Win64 Development -Project="C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" "C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2021.02.07-18.22.55:110][973]Warning: Starting HotReload took  0.0s.
+[2021.02.07-18.23.02:097][187]CompilerResultsLog: New page: Compilation - Feb 7, 2021, 8:23:02 AM
+[2021.02.07-18.23.02:097][187]CompilerResultsLog: Invalidating makefile for ToonTanksEditor (ProjectileBase.cpp modified)
+[2021.02.07-18.23.02:097][187]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2021.02.07-18.23.02:097][187]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\ToonTanks.uproject" "C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Ethan Huston\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.02.07-18.23.02:097][187]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 3.3325094 seconds
+[2021.02.07-18.23.02:097][187]CompilerResultsLog: Building ToonTanksEditor...
+[2021.02.07-18.23.02:097][187]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.07-18.23.02:097][187]CompilerResultsLog: Building 6 actions with 12 processes...
+[2021.02.07-18.23.02:097][187]CompilerResultsLog:   [1/6] ToonTanks.init.gen.cpp
+[2021.02.07-18.23.02:097][187]CompilerResultsLog:   [2/6] ProjectileBase.gen.cpp
+[2021.02.07-18.23.02:097][187]CompilerResultsLog:   [3/6] ProjectileBase.cpp
+[2021.02.07-18.23.02:097][187]CompilerResultsLog:   [4/6] UE4Editor-ToonTanks-6682.lib
+[2021.02.07-18.23.02:097][187]CompilerResultsLog:      Creating library C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6682.lib and object C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6682.exp
+[2021.02.07-18.23.02:097][187]CompilerResultsLog:   [5/6] UE4Editor-ToonTanks-6682.dll
+[2021.02.07-18.23.02:097][187]CompilerResultsLog:      Creating library C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6682.suppressed.lib and object C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6682.suppressed.exp
+[2021.02.07-18.23.02:097][187]CompilerResultsLog:   [6/6] ToonTanksEditor.target
+[2021.02.07-18.23.02:097][187]CompilerResultsLog: Total time in Parallel executor: 1.78 seconds
+[2021.02.07-18.23.02:097][187]CompilerResultsLog: Total execution time: 6.84 seconds
+[2021.02.07-18.23.02:097][187]LogMainFrame: MainFrame: Module compiling took 6.995 seconds
+[2021.02.07-18.23.02:126][187]LogClass: Could not find existing class ProjectileBase in package /Script/ToonTanks for HotReload, assuming new class
+[2021.02.07-18.23.02:133][187]LogHotReload: Re-instancing ProjectileBase after hot-reload.
+[2021.02.07-18.23.02:137][187]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0003 seconds. Added 4 classes and 4 folders.
+[2021.02.07-18.23.02:137][187]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.07-18.23.02:171][187]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0096 seconds. Added 3605 classes and 863 folders.
+[2021.02.07-18.23.02:171][187]Display: HotReload took  7.1s.
+[2021.02.07-18.27.54:823][144]Candidate modules for hot reload:
+[2021.02.07-18.27.54:823][144]  ToonTanks
+[2021.02.07-18.27.54:823][144]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,6017 ToonTanksEditor Win64 Development -Project="C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" "C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2021.02.07-18.27.54:825][144]Warning: Starting HotReload took  0.0s.
+[2021.02.07-18.27.57:099][381]CompilerResultsLog: New page: Compilation - Feb 7, 2021, 8:27:57 AM
+[2021.02.07-18.27.57:099][381]CompilerResultsLog: Invalidating makefile for ToonTanksEditor (ProjectileBase.cpp modified)
+[2021.02.07-18.27.57:099][381]CompilerResultsLog: Building ToonTanksEditor...
+[2021.02.07-18.27.57:099][381]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.07-18.27.57:099][381]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.02.07-18.27.57:099][381]CompilerResultsLog:   [1/4] ProjectileBase.cpp
+[2021.02.07-18.27.57:099][381]CompilerResultsLog:    C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Source\ToonTanks\Actors\ProjectileBase.cpp(18) : error C2065: 'UProjectileMovementCOmponent': undeclared identifier
+[2021.02.07-18.27.57:100][381]CompilerResultsLog:    C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Source\ToonTanks\Actors\ProjectileBase.cpp(18) : error C2672: 'UObject::CreateDefaultSubobject': no matching overloaded function found
+[2021.02.07-18.27.57:100][381]CompilerResultsLog:    C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Source\ToonTanks\Actors\ProjectileBase.cpp(18) : error C2974: 'UObject::CreateDefaultSubobject': invalid template argument for 'TReturnType', type expected
+[2021.02.07-18.27.57:100][381]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(119): note: see declaration of 'UObject::CreateDefaultSubobject'
+[2021.02.07-18.27.57:100][381]CompilerResultsLog:    C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Source\ToonTanks\Actors\ProjectileBase.cpp(21) : error C2065: 'InitialLifeSPan': undeclared identifier
+[2021.02.07-18.27.57:100][381]LogMainFrame: MainFrame: Module compiling took 2.283 seconds
+[2021.02.07-18.27.57:100][381]Warning: HotReload failed, recompile failed
+[2021.02.07-18.28.26:786][298]LogSlate: Window 'Message Log' being destroyed
+[2021.02.07-18.28.26:789][298]LogSlate: Window 'Message Log' being destroyed
+[2021.02.07-18.28.34:059][526]Candidate modules for hot reload:
+[2021.02.07-18.28.34:059][526]  ToonTanks
+[2021.02.07-18.28.34:059][526]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,2369 ToonTanksEditor Win64 Development -Project="C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" "C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2021.02.07-18.28.34:062][526]Warning: Starting HotReload took  0.0s.
+[2021.02.07-18.28.37:256][875]CompilerResultsLog: New page: Compilation - Feb 7, 2021, 8:28:37 AM
+[2021.02.07-18.28.37:256][875]CompilerResultsLog: Invalidating makefile for ToonTanksEditor (ProjectileBase.cpp modified)
+[2021.02.07-18.28.37:256][875]CompilerResultsLog: Building ToonTanksEditor...
+[2021.02.07-18.28.37:256][875]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.07-18.28.37:256][875]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.02.07-18.28.37:256][875]CompilerResultsLog:   [1/4] ProjectileBase.cpp
+[2021.02.07-18.28.37:256][875]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-2369.lib
+[2021.02.07-18.28.37:256][875]CompilerResultsLog:      Creating library C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2369.lib and object C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2369.exp
+[2021.02.07-18.28.37:256][875]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-2369.dll
+[2021.02.07-18.28.37:256][875]CompilerResultsLog:      Creating library C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2369.suppressed.lib and object C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2369.suppressed.exp
+[2021.02.07-18.28.37:256][875]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2021.02.07-18.28.37:256][875]CompilerResultsLog: Total time in Parallel executor: 1.39 seconds
+[2021.02.07-18.28.37:256][875]CompilerResultsLog: Total execution time: 3.11 seconds
+[2021.02.07-18.28.37:256][875]LogMainFrame: MainFrame: Module compiling took 3.202 seconds
+[2021.02.07-18.28.37:279][875]LogHotReload: Re-instancing ProjectileBase after hot-reload.
+[2021.02.07-18.28.37:282][875]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0003 seconds. Added 4 classes and 4 folders.
+[2021.02.07-18.28.37:283][875]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.02.07-18.28.37:312][875]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0088 seconds. Added 3605 classes and 863 folders.
+[2021.02.07-18.28.37:313][875]Display: HotReload took  3.3s.
+[2021.02.07-18.28.42:632][215]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2021.02.07-18.28.42:643][215]LogContentBrowser: Creating deferred item: NewFolder
+[2021.02.07-18.28.45:728][572]LogContentBrowser: Attempting asset rename: NewFolder -> Actors
+[2021.02.07-18.28.45:728][572]LogContentBrowser: End creating deferred item NewFolder
+[2021.02.07-18.29.31:800][ 56]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.02.07-18.29.32:377][ 56]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2021.02.07-18.29.33:216][ 56]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.02.07-18.29.38:460][209]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:114).
+[2021.02.07-18.29.38:648][231]LogSlate: Window 'BP_ProjectileBase' being destroyed
+[2021.02.07-18.29.39:503][326]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_ProjectileBase9E064A564AF56384CB1FEC83B3290ECD.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Actors/BP_ProjectileBase.uasset'
+[2021.02.07-18.29.39:516][326]AssetCheck: New page: Asset Save: BP_ProjectileBase
+[2021.02.07-18.29.39:516][326]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.02.07-18.29.47:727][301]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.02.07-18.30.11:875][175]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_ProjectileBaseDA1A0F6F413D5F18FCE18880263C1D9D.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Actors/BP_ProjectileBase.uasset'
+[2021.02.07-18.30.11:884][175]AssetCheck: New page: Asset Save: BP_ProjectileBase
+[2021.02.07-18.30.11:884][175]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.02.07-18.30.12:148][205]BlueprintLog: New page: Compile BP_ProjectileBase
+[2021.02.07-18.30.12:185][205]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.02.07-18.30.12:961][291]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_ProjectileBase99D03F7443D79D643189BC83931066F5.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Actors/BP_ProjectileBase.uasset'
+[2021.02.07-18.30.12:970][291]AssetCheck: New page: Asset Save: BP_ProjectileBase
+[2021.02.07-18.30.12:970][291]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.02.07-18.30.16:761][732]LogSlate: Took 0.006351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.02.07-18.30.19:838][ 79]LogStaticMesh: Building static mesh SM_Projectile...
+[2021.02.07-18.30.19:869][ 79]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Meshes/SM_Projectile.SM_Projectile
+[2021.02.07-18.30.25:036][658]BlueprintLog: New page: Compile BP_ProjectileBase
+[2021.02.07-18.30.25:092][658]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2021.02.07-18.30.26:479][815]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_ProjectileBase7B9D3224417FA7ABC0358B948D02404F.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Actors/BP_ProjectileBase.uasset'
+[2021.02.07-18.30.26:488][815]AssetCheck: New page: Asset Save: BP_ProjectileBase
+[2021.02.07-18.30.26:488][815]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.02.07-18.30.57:937][ 92]BlueprintLog: New page: Compile BP_ProjectileBase
+[2021.02.07-18.30.57:972][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.02.07-18.30.58:371][133]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_ProjectileBase9713BB6C49812C6A0D79A5817CBBC91C.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Actors/BP_ProjectileBase.uasset'
+[2021.02.07-18.30.58:380][133]AssetCheck: New page: Asset Save: BP_ProjectileBase
+[2021.02.07-18.30.58:380][133]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
