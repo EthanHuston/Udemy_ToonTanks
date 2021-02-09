@@ -23,12 +23,6 @@ void APawnTank::BeginPlay()
 	
 }
 
-void APawnTank::HandleDestruction() 
-{
-    Super::HandleDestruction();
-    //Hide PLayer. TODO create new function to handle this
-}
-
 // Called every frame
 void APawnTank::Tick(float DeltaTime)
 {
@@ -46,6 +40,21 @@ void APawnTank::Tick(float DeltaTime)
         RotateTurret(HitLocation);
     }
 }
+
+void APawnTank::HandleDestruction() 
+{
+    Super::HandleDestruction();
+    bIsPlayerAlive = false;
+
+    SetActorHiddenInGame(true);
+    SetActorTickEnabled(false);
+}
+
+bool APawnTank::GetIsPlayerAlive() 
+{
+    return bIsPlayerAlive;
+}
+
 
 // Called to bind functionality to input
 void APawnTank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
