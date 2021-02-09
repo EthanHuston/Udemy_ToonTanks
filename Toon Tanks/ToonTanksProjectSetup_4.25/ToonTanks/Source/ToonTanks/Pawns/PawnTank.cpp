@@ -27,6 +27,7 @@ void APawnTank::HandleDestruction()
 {
     Super::HandleDestruction();
     //Hide PLayer. TODO create new function to handle this
+    Destroy();
 }
 
 // Called every frame
