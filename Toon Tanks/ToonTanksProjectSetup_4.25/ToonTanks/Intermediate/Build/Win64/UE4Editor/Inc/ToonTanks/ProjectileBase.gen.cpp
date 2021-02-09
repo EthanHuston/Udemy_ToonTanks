@@ -23,9 +23,11 @@ void EmptyLinkFunctionForGeneratedCodeProjectileBase() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AProjectileBase::execOnHit)
 	{
@@ -106,7 +108,9 @@ void EmptyLinkFunctionForGeneratedCodeProjectileBase() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AProjectileBase_OnHit_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// FUNCTIONS\n" },
 		{ "ModuleRelativePath", "Actors/ProjectileBase.h" },
+		{ "ToolTip", "FUNCTIONS" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AProjectileBase_OnHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AProjectileBase, nullptr, "OnHit", nullptr, nullptr, sizeof(ProjectileBase_eventOnHit_Parms), Z_Construct_UFunction_AProjectileBase_OnHit_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AProjectileBase_OnHit_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C40401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AProjectileBase_OnHit_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AProjectileBase_OnHit_Statics::Function_MetaDataParams)) };
@@ -139,6 +143,10 @@ void EmptyLinkFunctionForGeneratedCodeProjectileBase() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ProjectileMesh;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ParticleTrail_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ParticleTrail;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DamageType_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_DamageType;
@@ -154,6 +162,14 @@ void EmptyLinkFunctionForGeneratedCodeProjectileBase() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitParticle_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitParticle;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_LaunchSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_LaunchSound;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitSound_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitSound;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -163,7 +179,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectileBase() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ToonTanks,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AProjectileBase_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AProjectileBase_OnHit, "OnHit" }, // 1518827390
+		{ &Z_Construct_UFunction_AProjectileBase_OnHit, "OnHit" }, // 3391866116
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectileBase_Statics::Class_MetaDataParams[] = {
@@ -175,8 +191,10 @@ void EmptyLinkFunctionForGeneratedCodeProjectileBase() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectileBase_Statics::NewProp_ProjectileMovement_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Components" },
+		{ "Comment", "// COMPONENTS\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Actors/ProjectileBase.h" },
+		{ "ToolTip", "COMPONENTS" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectileBase_Statics::NewProp_ProjectileMovement = { "ProjectileMovement", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectileBase, ProjectileMovement), Z_Construct_UClass_UProjectileMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProjectileBase_Statics::NewProp_ProjectileMovement_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProjectileBase_Statics::NewProp_ProjectileMovement_MetaData)) };
@@ -190,9 +208,20 @@ void EmptyLinkFunctionForGeneratedCodeProjectileBase() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectileBase_Statics::NewProp_ProjectileMesh = { "ProjectileMesh", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectileBase, ProjectileMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProjectileBase_Statics::NewProp_ProjectileMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProjectileBase_Statics::NewProp_ProjectileMesh_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectileBase_Statics::NewProp_ParticleTrail_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Components" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Actors/ProjectileBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectileBase_Statics::NewProp_ParticleTrail = { "ParticleTrail", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectileBase, ParticleTrail), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProjectileBase_Statics::NewProp_ParticleTrail_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProjectileBase_Statics::NewProp_ParticleTrail_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectileBase_Statics::NewProp_DamageType_MetaData[] = {
 		{ "Category", "Damage" },
+		{ "Comment", "// VARIABLES\n" },
 		{ "ModuleRelativePath", "Actors/ProjectileBase.h" },
+		{ "ToolTip", "VARIABLES" },
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AProjectileBase_Statics::NewProp_DamageType = { "DamageType", nullptr, (EPropertyFlags)0x0044000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectileBase, DamageType), Z_Construct_UClass_UDamageType_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AProjectileBase_Statics::NewProp_DamageType_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProjectileBase_Statics::NewProp_DamageType_MetaData)) };
@@ -219,13 +248,32 @@ void EmptyLinkFunctionForGeneratedCodeProjectileBase() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectileBase_Statics::NewProp_HitParticle = { "HitParticle", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectileBase, HitParticle), Z_Construct_UClass_UParticleSystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProjectileBase_Statics::NewProp_HitParticle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProjectileBase_Statics::NewProp_HitParticle_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectileBase_Statics::NewProp_LaunchSound_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Effects" },
+		{ "ModuleRelativePath", "Actors/ProjectileBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectileBase_Statics::NewProp_LaunchSound = { "LaunchSound", nullptr, (EPropertyFlags)0x0040000000000015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectileBase, LaunchSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProjectileBase_Statics::NewProp_LaunchSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProjectileBase_Statics::NewProp_LaunchSound_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectileBase_Statics::NewProp_HitSound_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Effects" },
+		{ "ModuleRelativePath", "Actors/ProjectileBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectileBase_Statics::NewProp_HitSound = { "HitSound", nullptr, (EPropertyFlags)0x0040000000000015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectileBase, HitSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProjectileBase_Statics::NewProp_HitSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProjectileBase_Statics::NewProp_HitSound_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AProjectileBase_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectileBase_Statics::NewProp_ProjectileMovement,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectileBase_Statics::NewProp_ProjectileMesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectileBase_Statics::NewProp_ParticleTrail,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectileBase_Statics::NewProp_DamageType,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectileBase_Statics::NewProp_MovementSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectileBase_Statics::NewProp_Damage,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectileBase_Statics::NewProp_HitParticle,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectileBase_Statics::NewProp_LaunchSound,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectileBase_Statics::NewProp_HitSound,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AProjectileBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AProjectileBase>::IsAbstract,
@@ -254,7 +302,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectileBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProjectileBase, 1938817340);
+	IMPLEMENT_CLASS(AProjectileBase, 2146339996);
 	template<> TOONTANKS_API UClass* StaticClass<AProjectileBase>()
 	{
 		return AProjectileBase::StaticClass();

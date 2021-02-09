@@ -26,7 +26,8 @@ private:
 	USceneComponent* ProjectileSpawnPoint;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	UHealthComponent* HealthComponent;
-	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Effects", meta = (AllowPrivateAccess = "true"))
+	USoundBase* DeathSound;
 	// VARIABLES
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Projectile Type", meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<AProjectileBase> ProjectileClass;
