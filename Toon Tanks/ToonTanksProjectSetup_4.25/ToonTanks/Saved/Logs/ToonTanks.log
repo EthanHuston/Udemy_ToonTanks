@@ -791,3 +791,596 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.02.10-01.54.43:933][  0]LogAssetRegistry: Asset discovery search completed in 2.8306 seconds
 [2021.02.10-01.54.43:934][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
 [2021.02.10-01.54.43:953][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.02.10-02.14.15:968][443]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.02.10-02.14.15:979][443]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.02.10-02.14.16:021][443]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2021.02.10-02.14.19:390][739]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.02.10-02.14.19:390][739]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.14.19:448][739]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.02.10-02.14.19:830][739]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.02.10-02.14.20:369][800]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.02.10-02.14.34:812][854]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_ProjectileBase8DF00937454C1CEEF8473CA5CBB3A499.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Actors/BP_ProjectileBase.uasset'
+[2021.02.10-02.14.34:827][854]AssetCheck: New page: Asset Save: BP_ProjectileBase
+[2021.02.10-02.14.34:827][854]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2021.02.10-02.14.35:227][899]BlueprintLog: New page: Compile BP_ProjectileBase
+[2021.02.10-02.14.35:270][899]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.02.10-02.14.35:283][899]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.02.10-02.14.36:209][  4]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.02.10-02.14.36:209][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.14.51:818][859]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.10-02.14.51:828][859]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.10-02.14.51:828][859]PIE: New page: PIE session: Main (Feb 9, 2021, 4:14:51 PM)
+[2021.02.10-02.14.51:829][859]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.02.10-02.14.51:830][859]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.02.10-02.14.51:830][859]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.02.10-02.14.51:832][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002348s)
+[2021.02.10-02.14.51:833][859]LogAIModule: Creating AISystem for world Main
+[2021.02.10-02.14.51:833][859]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2021.02.10-02.14.51:833][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003390s)
+[2021.02.10-02.14.51:845][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.02.10-02.14.51:846][859]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.02.10-02.14.51:846][859]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.10-02.14.51:846][859]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.10-02.14.51:846][859]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.10-02.14.51:846][859]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.10-02.14.51:846][859]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.10-02.14.51:846][859]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.10-02.14.51:846][859]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.10-02.14.51:846][859]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.10-02.14.51:847][859]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.10-02.14.51:847][859]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.10-02.14.51:853][859]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.10-02.14.51:853][859]LogAudioMixer: Display: 1: FrontRight
+[2021.02.10-02.14.51:853][859]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.10-02.14.51:853][859]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.10-02.14.51:853][859]LogAudioMixer: Display: 4: BackLeft
+[2021.02.10-02.14.51:853][859]LogAudioMixer: Display: 5: BackRight
+[2021.02.10-02.14.51:853][859]LogAudioMixer: Display: 6: SideLeft
+[2021.02.10-02.14.51:853][859]LogAudioMixer: Display: 7: SideRight
+[2021.02.10-02.14.51:896][859]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.02.10-02.14.51:896][859]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.10-02.14.51:897][859]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.10-02.14.51:897][859]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.10-02.14.51:897][859]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.10-02.14.51:897][859]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.10-02.14.51:897][859]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.02.10-02.14.51:908][859]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.10-02.14.51:908][859]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.10-02.14.51:908][859]LogInit: FAudioDevice initialized.
+[2021.02.10-02.14.51:908][859]LogAudio: Display: Audio Device (ID: 2) registered with world 'Main'.
+[2021.02.10-02.14.51:943][859]LogLoad: Game class is 'BP_GameModeBase_C'
+[2021.02.10-02.14.51:945][859]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.02.09-21.14.51
+[2021.02.10-02.14.51:945][859]LogWorld: Bringing up level for play took: 0.000953
+[2021.02.10-02.14.51:945][859]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.02.10-02.14.51:948][859]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.02.10-02.14.51:949][859]PIE: Server logged in
+[2021.02.10-02.14.51:950][859]PIE: Play in editor total start time 0.123 seconds.
+[2021.02.10-02.15.00:742][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.10-02.15.00:742][874]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.02.10-02.15.00:743][874]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.02.10-02.15.00:743][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.15.00:753][874]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.10-02.15.00:757][874]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.15.00:771][874]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.10-02.15.00:771][874]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.10-02.15.00:772][874]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.10-02.15.00:789][874]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.10-02.15.00:829][874]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2021.02.10-02.15.00:849][875]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.02.10-02.15.07:198][ 79]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PlayerControllers/BP_PlayerController.BP_PlayerController
+[2021.02.10-02.15.09:140][267]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.02.10-02.15.09:140][267]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.15.09:193][267]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/PlayerControllers/BP_PlayerController.BP_PlayerController
+[2021.02.10-02.15.24:346][ 26]BlueprintLog: New page: Compile BP_PlayerController
+[2021.02.10-02.15.24:398][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2021.02.10-02.15.24:840][ 72]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PlayerController97AB82034B100FADCED27C93C279F26F.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/PlayerControllers/BP_PlayerController.uasset'
+[2021.02.10-02.15.24:858][ 72]AssetCheck: New page: Asset Save: BP_PlayerController
+[2021.02.10-02.15.24:858][ 72]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PlayerControllers/BP_PlayerController.BP_PlayerController
+[2021.02.10-02.15.26:394][244]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.10-02.15.26:403][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.10-02.15.26:403][244]PIE: New page: PIE session: Main (Feb 9, 2021, 4:15:26 PM)
+[2021.02.10-02.15.26:441][244]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.02.10-02.15.26:444][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002253s)
+[2021.02.10-02.15.26:444][244]LogAIModule: Creating AISystem for world Main
+[2021.02.10-02.15.26:444][244]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2021.02.10-02.15.26:444][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003188s)
+[2021.02.10-02.15.26:458][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2021.02.10-02.15.26:459][244]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.02.10-02.15.26:459][244]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.10-02.15.26:459][244]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.10-02.15.26:459][244]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.10-02.15.26:459][244]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.10-02.15.26:459][244]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.10-02.15.26:459][244]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.10-02.15.26:459][244]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.10-02.15.26:459][244]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.10-02.15.26:459][244]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.10-02.15.26:459][244]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.10-02.15.26:465][244]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.10-02.15.26:465][244]LogAudioMixer: Display: 1: FrontRight
+[2021.02.10-02.15.26:465][244]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.10-02.15.26:465][244]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.10-02.15.26:465][244]LogAudioMixer: Display: 4: BackLeft
+[2021.02.10-02.15.26:465][244]LogAudioMixer: Display: 5: BackRight
+[2021.02.10-02.15.26:465][244]LogAudioMixer: Display: 6: SideLeft
+[2021.02.10-02.15.26:465][244]LogAudioMixer: Display: 7: SideRight
+[2021.02.10-02.15.26:507][244]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.02.10-02.15.26:508][244]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.10-02.15.26:508][244]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.10-02.15.26:508][244]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.10-02.15.26:508][244]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.10-02.15.26:508][244]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.10-02.15.26:508][244]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.02.10-02.15.26:520][244]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.10-02.15.26:520][244]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.10-02.15.26:520][244]LogInit: FAudioDevice initialized.
+[2021.02.10-02.15.26:520][244]LogAudio: Display: Audio Device (ID: 3) registered with world 'Main'.
+[2021.02.10-02.15.26:526][244]LogLoad: Game class is 'BP_GameModeBase_C'
+[2021.02.10-02.15.26:527][244]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.02.09-21.15.26
+[2021.02.10-02.15.26:527][244]LogWorld: Bringing up level for play took: 0.000666
+[2021.02.10-02.15.26:527][244]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.02.10-02.15.26:530][244]PIE: Server logged in
+[2021.02.10-02.15.26:530][244]PIE: Play in editor total start time 0.127 seconds.
+[2021.02.10-02.15.35:733][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.10-02.15.35:733][340]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.02.10-02.15.35:733][340]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.02.10-02.15.35:733][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.15.35:742][340]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.10-02.15.35:745][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.15.35:757][340]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.10-02.15.35:758][340]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.10-02.15.35:758][340]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.10-02.15.35:773][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.10-02.15.35:775][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.02.10-02.15.35:793][341]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.02.10-02.15.45:716][454]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.02.10-02.15.48:112][673]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.02.10-02.15.48:112][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.15.49:768][825]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2021.02.10-02.16.08:054][668]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTankE1804F7347513AD15CE381907C788E10.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.02.10-02.16.08:064][668]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.02.10-02.16.08:064][668]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.02.10-02.16.08:372][704]BlueprintLog: New page: Compile BP_PawnTank
+[2021.02.10-02.16.08:411][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.02.10-02.16.27:248][885]BlueprintLog: New page: Compile BP_PawnTurret
+[2021.02.10-02.16.27:285][885]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.02.10-02.16.27:362][893]BlueprintLog: New page: Compile BP_PawnTurret
+[2021.02.10-02.16.27:391][893]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.02.10-02.16.27:893][946]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTurret9B985274471089AF6DA8B7834C5FF510.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2021.02.10-02.16.27:905][946]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2021.02.10-02.16.27:905][946]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2021.02.10-02.16.30:731][120]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/BP_PawnTank73800A2A4E42E97668AF08B7A8B55E32.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2021.02.10-02.16.30:741][120]AssetCheck: New page: Asset Save: BP_PawnTank
+[2021.02.10-02.16.30:741][120]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2021.02.10-02.16.32:276][291]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2021.02.10-02.16.32:289][291]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main2906934D416EB4E12DC70FA31ACBC295.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2021.02.10-02.16.32:324][291]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_BuiltDataF0724E1C4D76BC3FA622D69BD6981331.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2021.02.10-02.16.32:339][291]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.10-02.16.32:339][291]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2021.02.10-02.16.32:339][291]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2021.02.10-02.16.33:304][400]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.10-02.16.33:315][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.10-02.16.33:316][400]PIE: New page: PIE session: Main (Feb 9, 2021, 4:16:33 PM)
+[2021.02.10-02.16.33:342][400]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.02.10-02.16.33:344][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002233s)
+[2021.02.10-02.16.33:345][400]LogAIModule: Creating AISystem for world Main
+[2021.02.10-02.16.33:345][400]LogPlayLevel: PIE: World Init took: (0.000820s)
+[2021.02.10-02.16.33:345][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003177s)
+[2021.02.10-02.16.33:363][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2021.02.10-02.16.33:363][400]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.02.10-02.16.33:363][400]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.10-02.16.33:363][400]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.10-02.16.33:363][400]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.10-02.16.33:363][400]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.10-02.16.33:363][400]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.10-02.16.33:363][400]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.10-02.16.33:363][400]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.10-02.16.33:363][400]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.10-02.16.33:364][400]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.10-02.16.33:364][400]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.10-02.16.33:369][400]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.10-02.16.33:369][400]LogAudioMixer: Display: 1: FrontRight
+[2021.02.10-02.16.33:369][400]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.10-02.16.33:369][400]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.10-02.16.33:369][400]LogAudioMixer: Display: 4: BackLeft
+[2021.02.10-02.16.33:369][400]LogAudioMixer: Display: 5: BackRight
+[2021.02.10-02.16.33:369][400]LogAudioMixer: Display: 6: SideLeft
+[2021.02.10-02.16.33:369][400]LogAudioMixer: Display: 7: SideRight
+[2021.02.10-02.16.33:411][400]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.02.10-02.16.33:411][400]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.10-02.16.33:411][400]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.10-02.16.33:411][400]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.10-02.16.33:411][400]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.10-02.16.33:411][400]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.10-02.16.33:411][400]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.02.10-02.16.33:423][400]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.10-02.16.33:423][400]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.10-02.16.33:423][400]LogInit: FAudioDevice initialized.
+[2021.02.10-02.16.33:423][400]LogAudio: Display: Audio Device (ID: 4) registered with world 'Main'.
+[2021.02.10-02.16.33:432][400]LogLoad: Game class is 'BP_GameModeBase_C'
+[2021.02.10-02.16.33:433][400]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.02.09-21.16.33
+[2021.02.10-02.16.33:433][400]LogWorld: Bringing up level for play took: 0.000662
+[2021.02.10-02.16.33:433][400]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.02.10-02.16.33:436][400]PIE: Server logged in
+[2021.02.10-02.16.33:436][400]PIE: Play in editor total start time 0.123 seconds.
+[2021.02.10-02.16.48:342][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.10-02.16.48:342][180]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.02.10-02.16.48:342][180]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.02.10-02.16.48:342][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.16.48:356][180]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.10-02.16.48:360][180]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.16.48:373][180]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.10-02.16.48:373][180]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.10-02.16.48:374][180]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.10-02.16.48:390][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2021.02.10-02.16.48:407][181]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.02.10-02.17.08:153][546]LogEditorViewport: Clicking on Actor (LMB): BP_PawnTurret_C (BP_PawnTurret)
+[2021.02.10-02.17.23:341][305]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2021.02.10-02.17.23:356][305]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/MainD348B58B43225F09DE78EE8273616E95.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2021.02.10-02.17.23:388][305]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_BuiltDataA37DCB624E2DFACBAA4EFBBF49B31898.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2021.02.10-02.17.23:399][305]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.10-02.17.23:399][305]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2021.02.10-02.17.23:399][305]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2021.02.10-02.17.43:828][481]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.02.10-02.17.43:828][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.17.44:365][536]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.02.10-02.17.44:365][536]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.02.10-02.17.44:365][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.17.44:897][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.02.10-02.17.44:912][585]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main7985B2AD4E093D315BA4A284FBD385A3.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2021.02.10-02.17.44:944][585]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_BuiltData81D156C5404D682CE441BDB50C978E9A.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2021.02.10-02.17.44:957][585]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.10-02.17.44:957][585]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2021.02.10-02.17.44:957][585]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2021.02.10-02.17.49:729][113]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.02.10-02.18.02:839][550]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.02.10-02.18.27:850][538]LogSlate: Window 'Project Settings' being destroyed
+[2021.02.10-02.18.27:866][538]LogSlate: Window 'Project Settings' being destroyed
+[2021.02.10-02.18.56:442][901]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.02.10-02.19.55:571][809]LogSlate: Window 'Project Settings' being destroyed
+[2021.02.10-02.19.55:576][809]LogSlate: Window 'Project Settings' being destroyed
+[2021.02.10-02.20.11:254][298]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2021.02.10-02.20.11:254][298]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2021.02.10-02.20.11:254][298]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.02.10-02.20.11:254][298]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.GTAO.Numangles:4]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.02.10-02.20.11:254][298]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.02.10-02.20.11:255][298]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:8]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:256.0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:256.0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:4]]
+[2021.02.10-02.20.11:255][298]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.02.10-02.20.11:255][298]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Config/Windows/Scalability.ini]
+[2021.02.10-02.20.11:256][298]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:0]]
+[2021.02.10-02.20.11:256][298]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:8]]
+[2021.02.10-02.20.11:256][298]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:8]]
+[2021.02.10-02.20.11:268][299]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:22549).
+[2021.02.10-02.20.11:308][303]LogContentStreaming: Texture pool size now 3000 MB
+[2021.02.10-02.20.12:766][453]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2021.02.10-02.20.12:784][453]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/MainA527BADE497EF68996549E99DE971C19.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2021.02.10-02.20.12:814][453]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_BuiltData18FAB57E46375B95EF62BAA499EF1EC5.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2021.02.10-02.20.12:826][453]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.10-02.20.12:826][453]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2021.02.10-02.20.12:826][453]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2021.02.10-02.20.13:682][546]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2021.02.10-02.20.13:697][546]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/MainA549320846EB195437AC3BA31FCE9C6A.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2021.02.10-02.20.13:729][546]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_BuiltDataFE9C50E74F3D270CF0C9DD9B510DFCD0.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2021.02.10-02.20.13:737][546]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.10-02.20.13:737][546]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2021.02.10-02.20.13:737][546]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2021.02.10-02.20.15:746][769]MapCheck: New page: Map Check
+[2021.02.10-02.20.15:760][769]Cmd: MAP REBUILD ALLVISIBLE
+[2021.02.10-02.20.15:760][769]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.02.10-02.20.15:763][769]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=false
+[2021.02.10-02.20.15:783][769]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.02.10-02.20.15:783][769]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.02.10-02.20.15:783][769]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.02.10-02.20.15:812][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2021.02.10-02.20.15:817][769]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.02.10-02.20.15:825][769]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.02.10-02.20.15:827][769]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2021.02.10-02.20.15:827][769]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2021.02.10-02.20.15:827][769]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.02.10-02.20.15:828][769]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.02.10-02.20.16:319][769]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 6
+[2021.02.10-02.20.16:319][769]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 5
+[2021.02.10-02.20.16:319][769]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2021.02.10-02.20.16:319][769]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2021.02.10-02.20.16:319][769]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2021.02.10-02.20.16:319][769]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2021.02.10-02.20.16:319][769]TextureStreamingBuild: Display: Compiling optional shaders took 0.506 seconds.
+[2021.02.10-02.20.16:355][769]LogLevel: Display: Export Material TexCoord Scales took 0.035 seconds.
+[2021.02.10-02.20.16:358][769]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2021.02.10-02.20.16:368][769]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.02.10-02.20.16:383][769]LightingResults: New page: Lighting Build - Feb 9, 2021, 4:20:16 PM
+[2021.02.10-02.20.16:423][769]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.02.10-02.20.16:467][769]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.02.10-02.20.16:480][769]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.02.10-02.20.17:000][769]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.02.10-02.20.17:000][769]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20540
+[2021.02.10-02.20.19:325][769]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.02.10-02.20.19:325][769]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.02.10-02.20.19:325][769]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.02.10-02.20.19:325][769]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.02.10-02.20.19:325][769]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.02.10-02.20.19:325][769]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.02.10-02.20.19:479][769]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.02.10-02.20.19:479][769]MapCheck: New page: Main - Feb 9, 2021, 4:20:19 PM
+[2021.02.10-02.20.19:480][769]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.345ms to complete.
+[2021.02.10-02.20.19:482][769]LogEditorBuildUtils: Build time 0:03
+[2021.02.10-02.20.19:753][769]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_GridBase, compiling. 
+[2021.02.10-02.20.19:760][769]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_GridBase, compiling. 
+[2021.02.10-02.20.19:799][769]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.02.10-02.20.19:799][769]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.02.10-02.20.19:799][769]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.02.10-02.20.19:799][769]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.02.10-02.20.19:823][770]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2021.02.10-02.20.19:826][770]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2021.02.10-02.20.19:826][770]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.02.10-02.20.19:826][770]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2021.02.10-02.20.19:834][770]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2021.02.10-02.20.19:839][770]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2021.02.10-02.20.19:872][770]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2021.02.10-02.20.19:872][770]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2021.02.10-02.20.20:564][772]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2021.02.10-02.20.20:564][772]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 3
+[2021.02.10-02.20.20:564][772]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2021.02.10-02.20.20:564][772]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2021.02.10-02.20.20:747][777]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.02.10-02.20.22:091][839]Job is a success!
+[2021.02.10-02.20.22:180][840]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.010s
+[2021.02.10-02.20.22:180][840]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.02.10-02.20.22:180][840]LogVolumetricLightmapImport:      BrickData (all levels) 0.3Mb
+[2021.02.10-02.20.22:180][840]LogVolumetricLightmapImport:      Bricks at depth
+[2021.02.10-02.20.22:180][840]LogVolumetricLightmapImport:          0: 1.9% covering 100.0% of volume
+[2021.02.10-02.20.22:180][840]LogVolumetricLightmapImport:          1: 7.4% covering 6.2% of volume
+[2021.02.10-02.20.22:180][840]LogVolumetricLightmapImport:          2: 90.7% covering 1.2% of volume
+[2021.02.10-02.20.22:180][840]LogVolumetricLightmapImport:      Bricks in each level
+[2021.02.10-02.20.22:180][840]LogVolumetricLightmapImport:          Main 			 54 bricks 	 100.0% (Persistent Level)
+[2021.02.10-02.20.22:251][840]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2021.02.10-02.20.22:251][840]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2021.02.10-02.20.22:251][840]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2021.02.10-02.20.22:251][840]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2021.02.10-02.20.22:251][840]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2021.02.10-02.20.22:251][840]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2021.02.10-02.20.22:251][840]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2021.02.10-02.20.22:251][840]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 512X128)
+[2021.02.10-02.20.22:251][840]Lightmass on ETHANS-PC: 763 ms total, 123 ms importing, 15 ms setup, 90 ms photons, 505 ms processing, 0 ms extra exporting [8/8 mappings]. Threads: 5.55 sec total, 393 ms processing.
+[2021.02.10-02.20.22:251][840]LogStaticLightingSystem: Main_BuiltData storing lightmap data for 8 meshes in 2 LightmapResourceClusters (4.0 Meshes per cluster).
+[2021.02.10-02.20.22:283][840]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.02.10-02.20.22:325][840]LogStaticLightingSystem: Illumination: 5.88 sec (32 ms encoding lightmaps, 15 ms encoding shadowmaps)
+[2021.02.10-02.20.22:325][840]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.02.10-02.20.22:325][840]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.02.10-02.20.22:341][840]DumpUnbuiltLightIteractions
+[2021.02.10-02.20.22:341][840]Lights with unbuilt interactions: 0
+[2021.02.10-02.20.22:341][840]
+[2021.02.10-02.20.22:341][840]Primitives with unbuilt interactions: 0
+[2021.02.10-02.20.22:457][841]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.02.10-02.20.22:457][841]MapCheck: New page: Main - Feb 9, 2021, 4:20:22 PM
+[2021.02.10-02.20.22:458][841]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.319ms to complete.
+[2021.02.10-02.20.25:038][100]Candidate modules for hot reload:
+[2021.02.10-02.20.25:038][100]  ToonTanks
+[2021.02.10-02.20.25:038][100]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,6418 ToonTanksEditor Win64 Development -Project="C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject" "C:/Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2021.02.10-02.20.25:042][100]Warning: Starting HotReload took  0.0s.
+[2021.02.10-02.20.26:673][242]CompilerResultsLog: New page: Compilation - Feb 9, 2021, 4:20:26 PM
+[2021.02.10-02.20.26:673][242]CompilerResultsLog: Building ToonTanksEditor...
+[2021.02.10-02.20.26:673][242]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.02.10-02.20.26:673][242]CompilerResultsLog: Building 3 actions with 12 processes...
+[2021.02.10-02.20.26:673][242]CompilerResultsLog:   [1/3] UE4Editor-ToonTanks-6418.lib
+[2021.02.10-02.20.26:673][242]CompilerResultsLog:      Creating library C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6418.lib and object C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6418.exp
+[2021.02.10-02.20.26:673][242]CompilerResultsLog:   [2/3] UE4Editor-ToonTanks-6418.dll
+[2021.02.10-02.20.26:673][242]CompilerResultsLog:      Creating library C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6418.suppressed.lib and object C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6418.suppressed.exp
+[2021.02.10-02.20.26:673][242]CompilerResultsLog:   [3/3] ToonTanksEditor.target
+[2021.02.10-02.20.26:673][242]CompilerResultsLog: Total time in Parallel executor: 0.93 seconds
+[2021.02.10-02.20.26:673][242]CompilerResultsLog: Total execution time: 1.53 seconds
+[2021.02.10-02.20.26:673][242]LogMainFrame: MainFrame: Module compiling took 1.645 seconds
+[2021.02.10-02.20.26:706][242]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0003 seconds. Added 7 classes and 7 folders.
+[2021.02.10-02.20.26:709][242]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.02.10-02.20.26:757][242]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0102 seconds. Added 3608 classes and 866 folders.
+[2021.02.10-02.20.26:757][242]Display: HotReload took  1.7s.
+[2021.02.10-02.20.38:172][117]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.10-02.20.38:186][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.10-02.20.38:186][117]PIE: New page: PIE session: Main (Feb 9, 2021, 4:20:38 PM)
+[2021.02.10-02.20.38:186][117]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.02.10-02.20.38:189][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002726s)
+[2021.02.10-02.20.38:190][117]LogAIModule: Creating AISystem for world Main
+[2021.02.10-02.20.38:190][117]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2021.02.10-02.20.38:190][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003599s)
+[2021.02.10-02.20.38:241][117]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2021.02.10-02.20.38:243][117]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.02.10-02.20.38:243][117]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.10-02.20.38:243][117]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.10-02.20.38:243][117]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.10-02.20.38:243][117]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.10-02.20.38:243][117]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.10-02.20.38:243][117]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.10-02.20.38:243][117]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.10-02.20.38:243][117]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.10-02.20.38:243][117]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.10-02.20.38:243][117]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.10-02.20.38:249][117]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.10-02.20.38:249][117]LogAudioMixer: Display: 1: FrontRight
+[2021.02.10-02.20.38:249][117]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.10-02.20.38:250][117]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.10-02.20.38:250][117]LogAudioMixer: Display: 4: BackLeft
+[2021.02.10-02.20.38:250][117]LogAudioMixer: Display: 5: BackRight
+[2021.02.10-02.20.38:250][117]LogAudioMixer: Display: 6: SideLeft
+[2021.02.10-02.20.38:250][117]LogAudioMixer: Display: 7: SideRight
+[2021.02.10-02.20.38:297][117]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.02.10-02.20.38:297][117]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.10-02.20.38:297][117]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.10-02.20.38:297][117]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.10-02.20.38:298][117]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.10-02.20.38:298][117]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.10-02.20.38:298][117]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.02.10-02.20.38:310][117]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.10-02.20.38:310][117]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.10-02.20.38:310][117]LogInit: FAudioDevice initialized.
+[2021.02.10-02.20.38:310][117]LogAudio: Display: Audio Device (ID: 5) registered with world 'Main'.
+[2021.02.10-02.20.38:314][117]LogLoad: Game class is 'BP_GameModeBase_C'
+[2021.02.10-02.20.38:316][117]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.02.09-21.20.38
+[2021.02.10-02.20.38:316][117]LogWorld: Bringing up level for play took: 0.000910
+[2021.02.10-02.20.38:316][117]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.02.10-02.20.38:318][117]PIE: Server logged in
+[2021.02.10-02.20.38:319][117]PIE: Play in editor total start time 0.134 seconds.
+[2021.02.10-02.20.41:762][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.10-02.20.41:762][522]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.02.10-02.20.41:762][522]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.02.10-02.20.41:762][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.20.41:771][522]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.10-02.20.41:786][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.20.41:795][522]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.02.10-02.20.41:796][522]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.10-02.20.41:796][522]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.10-02.20.41:811][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.10-02.20.41:818][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2021.02.10-02.20.41:851][523]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.02.10-02.20.42:595][606]LogTemp: Repeating last play command: Selected Viewport
+[2021.02.10-02.20.42:605][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.02.10-02.20.42:605][606]PIE: New page: PIE session: Main (Feb 9, 2021, 4:20:42 PM)
+[2021.02.10-02.20.42:605][606]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2021.02.10-02.20.42:607][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002581s)
+[2021.02.10-02.20.42:608][606]LogAIModule: Creating AISystem for world Main
+[2021.02.10-02.20.42:608][606]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2021.02.10-02.20.42:608][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003458s)
+[2021.02.10-02.20.42:619][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2021.02.10-02.20.42:620][606]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.02.10-02.20.42:620][606]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.02.10-02.20.42:620][606]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.02.10-02.20.42:620][606]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.02.10-02.20.42:620][606]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.02.10-02.20.42:620][606]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.02.10-02.20.42:620][606]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.02.10-02.20.42:620][606]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.02.10-02.20.42:620][606]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.02.10-02.20.42:620][606]LogAudio: Display: Using built-in audio occlusion.
+[2021.02.10-02.20.42:620][606]LogAudioMixer: Display: Initializing audio mixer.
+[2021.02.10-02.20.42:625][606]LogAudioMixer: Display: 0: FrontLeft
+[2021.02.10-02.20.42:625][606]LogAudioMixer: Display: 1: FrontRight
+[2021.02.10-02.20.42:625][606]LogAudioMixer: Display: 2: FrontCenter
+[2021.02.10-02.20.42:625][606]LogAudioMixer: Display: 3: LowFrequency
+[2021.02.10-02.20.42:626][606]LogAudioMixer: Display: 4: BackLeft
+[2021.02.10-02.20.42:626][606]LogAudioMixer: Display: 5: BackRight
+[2021.02.10-02.20.42:626][606]LogAudioMixer: Display: 6: SideLeft
+[2021.02.10-02.20.42:626][606]LogAudioMixer: Display: 7: SideRight
+[2021.02.10-02.20.42:666][606]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.02.10-02.20.42:666][606]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.02.10-02.20.42:666][606]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.02.10-02.20.42:666][606]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.02.10-02.20.42:666][606]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.02.10-02.20.42:666][606]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.02.10-02.20.42:666][606]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2021.02.10-02.20.42:678][606]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.02.10-02.20.42:678][606]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.02.10-02.20.42:678][606]LogInit: FAudioDevice initialized.
+[2021.02.10-02.20.42:678][606]LogAudio: Display: Audio Device (ID: 6) registered with world 'Main'.
+[2021.02.10-02.20.42:688][606]LogLoad: Game class is 'BP_GameModeBase_C'
+[2021.02.10-02.20.42:690][606]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2021.02.09-21.20.42
+[2021.02.10-02.20.42:690][606]LogWorld: Bringing up level for play took: 0.001006
+[2021.02.10-02.20.42:690][606]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.02.10-02.20.42:692][606]PIE: Server logged in
+[2021.02.10-02.20.42:693][606]PIE: Play in editor total start time 0.089 seconds.
+[2021.02.10-02.20.55:823][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.10-02.20.55:823][173]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2021.02.10-02.20.55:823][173]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2021.02.10-02.20.55:823][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.20.55:835][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.02.10-02.20.55:850][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.02.10-02.20.55:858][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.02.10-02.20.55:859][173]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.10-02.20.55:860][173]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.02.10-02.20.55:880][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2021.02.10-02.20.55:911][174]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.02.10-02.20.59:579][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.02.10-02.20.59:594][283]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main4830EF054107D1AE57494EA1D7E1C3D1.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main.umap'
+[2021.02.10-02.20.59:635][283]LogSavePackage: Moving '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Saved/Main_BuiltDataAEF8713E4BCBFDB8063FE597E6B5D37E.tmp' to '../../../../../../Users/Ethan Huston/source/repos/EthanHuston/Udemy_ToonTanks/Toon Tanks/ToonTanksProjectSetup_4.25/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2021.02.10-02.20.59:644][283]AssetCheck: New page: Asset Save: multiple assets
+[2021.02.10-02.20.59:644][283]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2021.02.10-02.20.59:644][283]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
