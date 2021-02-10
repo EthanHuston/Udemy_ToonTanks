@@ -116,8 +116,8 @@
 /I Developer\TargetPlatform\Public
 /I ..\Intermediate\Build\Win64\UE4\Inc\AnimationCore
 /I Runtime\AnimationCore\Public
-/I "C:\Udemy\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4\Inc\ToonTanks"
-/I "C:\Udemy\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Source"
+/I "C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4\Inc\ToonTanks"
+/I "C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Source"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -147,12 +147,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Udemy\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\ToonTanks\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Udemy\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\ToonTanks\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Udemy\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\ToonTanks\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Udemy\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Source\ToonTanks\ToonTanks.cpp"
-/FI"C:\Udemy\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4\Development\ToonTanks\Definitions.ToonTanks.h"
-/Fo"C:\Udemy\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4\Development\ToonTanks\ToonTanks.cpp.obj"
+/FI"C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\ToonTanks\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\ToonTanks\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\ToonTanks\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Source\ToonTanks\ToonTanks.cpp"
+/FI"C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4\Development\ToonTanks\Definitions.ToonTanks.h"
+/Fo"C:\Users\Ethan Huston\source\repos\EthanHuston\Udemy_ToonTanks\Toon Tanks\ToonTanksProjectSetup_4.25\ToonTanks\Intermediate\Build\Win64\UE4\Development\ToonTanks\ToonTanks.cpp.obj"
 /TP
 /GR-
 /W4
