@@ -24,6 +24,7 @@ void EmptyLinkFunctionForGeneratedCodePawnBase() {}
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	TOONTANKS_API UClass* Z_Construct_UClass_AProjectileBase_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UMatineeCameraShake_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 // End Cross Module References
 	void APawnBase::StaticRegisterNativesAPawnBase()
@@ -67,6 +68,10 @@ void EmptyLinkFunctionForGeneratedCodePawnBase() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileClass_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ProjectileClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DeathShake_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_DeathShake;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DeathParticle_MetaData[];
 #endif
@@ -152,6 +157,13 @@ void EmptyLinkFunctionForGeneratedCodePawnBase() {}
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APawnBase_Statics::NewProp_ProjectileClass = { "ProjectileClass", nullptr, (EPropertyFlags)0x0044000000000015, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APawnBase, ProjectileClass), Z_Construct_UClass_AProjectileBase_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APawnBase_Statics::NewProp_ProjectileClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APawnBase_Statics::NewProp_ProjectileClass_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APawnBase_Statics::NewProp_DeathShake_MetaData[] = {
+		{ "Category", "Effects" },
+		{ "ModuleRelativePath", "Pawns/PawnBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_APawnBase_Statics::NewProp_DeathShake = { "DeathShake", nullptr, (EPropertyFlags)0x0044000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APawnBase, DeathShake), Z_Construct_UClass_UMatineeCameraShake_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_APawnBase_Statics::NewProp_DeathShake_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_APawnBase_Statics::NewProp_DeathShake_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APawnBase_Statics::NewProp_DeathParticle_MetaData[] = {
 		{ "Category", "Effects" },
 		{ "ModuleRelativePath", "Pawns/PawnBase.h" },
@@ -166,6 +178,7 @@ void EmptyLinkFunctionForGeneratedCodePawnBase() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APawnBase_Statics::NewProp_HealthComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APawnBase_Statics::NewProp_DeathSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APawnBase_Statics::NewProp_ProjectileClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APawnBase_Statics::NewProp_DeathShake,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APawnBase_Statics::NewProp_DeathParticle,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_APawnBase_Statics::StaticCppClassTypeInfo = {
@@ -195,7 +208,7 @@ void EmptyLinkFunctionForGeneratedCodePawnBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APawnBase, 2010349407);
+	IMPLEMENT_CLASS(APawnBase, 1709467406);
 	template<> TOONTANKS_API UClass* StaticClass<APawnBase>()
 	{
 		return APawnBase::StaticClass();
